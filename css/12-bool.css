@@ -35,23 +35,23 @@
 
 .col-nested2{
     flex-basis: calc((100% / 12) * 2 - .7rem);
-    max-width: calc((100% / 12) * 2 - .7rem);
+    max-width: calc((100% / 12) * 2 - .7rem);   
     border: 1px solid black;
-    padding: .3rem 0 .3rem 0;
+    
 }
 
 .col-nested6{
-    flex-basis: calc((100% / 12) * 6 - .7rem);
+    flex-basis: calc((100% / 12) * 6 - .7rem );
     max-width: calc((100% / 12) * 6 - .7rem);
     border: 1px solid black;
-    padding: .3rem 0 .3rem 0;
+    
 }
 
 .col-nested8{
-    flex-basis: calc((100% / 12) * 8 - .7rem);
-    max-width: calc((100% / 12) * 8 - .7rem);
+    flex-basis: calc((100% / 12) * 8 );
+    max-width: calc((100% / 12) * 8 );
     border: 1px solid black;
-    padding: .3rem 0 .3rem 0;
+  
 }
 
 .col-3{
