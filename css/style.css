@@ -53,24 +53,28 @@
     max-width: calc((100% / 12) * 2);
 }
 .col-nested2{
-    flex-basis: calc((100% / 12) * 2- .7rem);
+    flex-basis: calc((100% / 12) * 2 - .7rem);
     max-width: calc((100% / 12) * 2 - .7rem);
     border: 1px solid black;
-    padding-top: 1rem;
+    padding: 1rem 0 1rem 0;
 }
 
 .col-nested6{
     flex-basis: calc((100% / 12) * 6 - .7rem);
     max-width: calc((100% / 12) * 6 - .7rem);
     border: 1px solid black;
-    padding-top: 1rem;
+    padding: 1rem 0 1rem 0;
 }
 
 .col-nested8{
-    flex-basis: calc((100% / 12) * 8 - .5rem);
-    max-width: calc((100% / 12) * 8 - .5rem);
+    flex-basis: calc((100% / 12) * 8 - .7rem);
+    max-width: calc((100% / 12) * 8 - .7rem);
     border: 1px solid black;
-    padding-top: 1rem;
+    padding: 1rem 0 1rem 0;
+  
+   
+    
+  
 }
 
 .col-3{
