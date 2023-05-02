@@ -124,7 +124,6 @@ section{
 
 [class*="col-offset"] {
     flex: 0 0 auto;
-    border: 1px solid white;
     height: 25px;
     
 }
