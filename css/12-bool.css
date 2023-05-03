@@ -15,12 +15,13 @@
     flex-wrap: wrap;
 }
 
-[class*="col-"] {
+[class*="col"] {
+    background-color:rgb(112, 112, 211);
     flex: 0 0 auto;
-    background-color: rgb(112, 112, 211);
     border: 1px solid white;
     color: white;
     text-align: center;
+    padding: 1rem;
 }
 
 .col-1{
@@ -33,25 +34,12 @@
     max-width: calc((100% / 12) * 2);
 }
 
-.col-nested2{
-    flex-basis: calc((100% / 12) * 2 - .7rem);
-    max-width: calc((100% / 12) * 2 - .7rem);   
+.nested{
+    background-color: lightgreen ;
     border: 1px solid black;
-    
-}
+    padding: 0;
 
-.col-nested6{
-    flex-basis: calc((100% / 12) * 6 - .7rem );
-    max-width: calc((100% / 12) * 6 - .7rem);
-    border: 1px solid black;
     
-}
-
-.col-nested8{
-    flex-basis: calc((100% / 12) * 8 );
-    max-width: calc((100% / 12) * 8 );
-    border: 1px solid black;
-  
 }
 
 .col-3{

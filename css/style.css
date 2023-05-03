@@ -1,24 +1,4 @@
 
-.bg-green{
-    background-color: lightgreen;
-  }
-  
-  .margin1{
-      margin: .7rem 0 .7rem .7rem ;
-  }
-
-  .margin2{
-      margin: .7rem 0 .7rem 0;
-  }
-  
-  .margin3{
-      margin: .7rem .7rem .7rem 0;
-  }
-
-   .bg-blu{
-      background-color:rgb(112, 112, 211); 
-      height: 25px;
-   }
 
    section{
     padding-bottom: 1rem;
